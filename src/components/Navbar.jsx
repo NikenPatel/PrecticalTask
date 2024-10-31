@@ -18,17 +18,17 @@ const Header = () => {
   };
   return (
     <>
-      <header class=" relative shadow-lg px-3 py-2">
-        <nav class="flex justify-between px-5">
-          <div class="flex items-center">
+      <header className=" relative shadow-lg px-3 py-2">
+        <nav className="flex justify-between px-5">
+          <div className="flex items-center">
             <h1 className="text-[32px] text-purple-500 font-semibold uppercase">
               Prectical Task
             </h1>
           </div>
-          <div class="flex items-center gap-3">
-            <div class="navLinks duration-500 absolute md:static md:w-auto w-full md:h-auto h-[85vh] bg-white flex md:items-center gap-[1.5vw] top-[100%] left-[-100%] px-5 md:py-0 py-5 ">
-              <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-8">
-                <li class="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
+          <div className="flex items-center gap-3">
+            <div className="navLinks duration-500 absolute md:static md:w-auto w-full md:h-auto h-[85vh] bg-white flex md:items-center gap-[1.5vw] top-[100%] left-[-100%] px-5 md:py-0 py-5 ">
+              <ul className="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-8">
+                <li className="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   <Link
                     className="text-purple-500 font-semibold"
                     to="/dashboard/user"
@@ -36,7 +36,7 @@ const Header = () => {
                     Users
                   </Link>
                 </li>
-                <li class="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                <li className="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   <Link
                     className="text-purple-500 font-semibold"
                     to="/dashboard/product"
@@ -44,7 +44,7 @@ const Header = () => {
                     Products
                   </Link>
                 </li>
-                <li class="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                <li className="relative max-w-fit pr-3 md:pr-0 py-1 uppercase after:bg-purple-500  after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300">
                   <Link
                     className="text-purple-500 font-semibold"
                     to="/dashboard/cart"
